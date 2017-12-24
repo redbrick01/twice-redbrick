@@ -6,21 +6,48 @@
   <style>
     a{
       color:orange;
-        text-decoration: none;
+      text-decoration: none;
+    }
+    h1{
+      font-size: 50px;
+      text-align: center;
+      padding: 15px;
+      border-bottom: 2px solid orange;
+      margin:0;
     }
     h2{
       color:orange;
+
     }
+    #grid ol{
+      border-right: 2px solid orange;  width: 100px;
+      margin: 0;
+      padding:20px;
+      padding-left: 32px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px  4fr
+  }
+  #article{
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    padding-top: 10px
+  }
   </style>
 </head>
 
 <body>
 <h1><a href="index.html">TWICE</a></h1>
+<div id="grid">
+<ol>
   <li><a href="1.html" style="color:pink">나연</a></li>
   <li><a href="2.html">정연</a></li>
   <li><a href="3.html">모모</a></li>
   <li><a href="4.html">M/V</a></li>
-<hr>
+</ol>
+<grid id="article">
 <h2>나연</h2>
 <img src="ny.jpg" width="100%">
 <p><strong><a href="https://ko.wikipedia.org/wiki/%EB%82%98%EC%97%B0_(1995%EB%85%84)"
@@ -32,5 +59,7 @@ JYP엔터테인먼트에서 2015년 10월 20일 데뷔한 9인조 다국적 걸�
 나연은 이 모든 영역에서 최고는 아니지만 2~3번째 안에 손꼽히는 실력을 갖추고 있기에 <strong>TWICE의 실질적인 에이스</strong>로 인정받고 있다.
 박진영 역시도 이런 부분을 높이 사 SIXTEEN 최종회에서 나연을 첫 번째로 선발한 후 '이런 멤버가 있다는건 우리(제작자)에게 큰 힘이 됩니다'라고 평하기도 했으며,
 지금까지 발표된 타이틀 곡의 뮤직비디오 시작 부분을 모두 나연이 맡았다. 그래서 붙은 별명이 <u>'고유나연'</u>.</p>
+</div>
+</div>
 </body>
 </html>
